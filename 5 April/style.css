@@ -1,0 +1,50 @@
+h1
+{
+    color:blueviolet;
+}
+
+.heading1
+{
+    color:chocolate;
+}
+.anuj
+{
+    color:darkgreen;
+}
+
+p
+{
+    color:white;
+}
+
+.red
+{
+    color:red;
+}
+
+#special
+{
+    font-size: larger;
+}
+#specialcase
+{
+    font-size: 40px;
+    color:red;
+}
+
+#pid
+{
+    color:yellowgreen;
+}
+
+
+p
+{
+    color:palevioletred;
+    background-color: black;
+   
+}
+.pclass
+{
+    color:red;
+}
