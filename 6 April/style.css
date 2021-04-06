@@ -1,0 +1,33 @@
+h1
+{
+    /* border-color:blue;
+    border-width: 5px;
+    border-style: dashed;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:50px;
+    padding-right:50px; */
+/* 
+    border:10px dashed blueviolet;
+    padding:40px 50px;
+    margin:50px 10px 100px 10px; */
+}
+a
+{
+    background-color: black;
+    color:white;
+    padding:10px 15px;
+    text-decoration: none;
+    border:5px solid blueviolet;
+}
+a:hover
+{
+    color:black;
+    background-color: white;
+    border:5px dotted blueviolet;
+}
+img
+{
+    border:15px  black;
+    border-style:double;
+}
