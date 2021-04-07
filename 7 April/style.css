@@ -3,19 +3,30 @@
     width:150px;
     height:150px;
     background-color: red;
-
-    /* position:absolute;
-    top:400px;
-    left: 200px; */
+    position: absolute;
+    top:50px;
+    right:0px;
 }
 .blue
 {
     margin-top:50px;
     width:150px;
     height:150px;
-    background-color: blue;
-
+    background-color: black;
+    border-radius: 120px;
     position: absolute;
-    top:0px;
-
+    right:0px;
+    
+}
+img
+{
+    position: absolute;
+    top:50px;
+    right:0px;
+}
+.purple
+{
+    width:200px;
+    height: 500px;
+    background-color:purple;  
 }

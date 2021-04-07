@@ -31,3 +31,7 @@ img
     border:15px  black double;
     /* border-style:double; */
 }
+h1
+{
+    text-decoration:underline;
+}
