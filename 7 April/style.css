@@ -1,0 +1,21 @@
+.red
+{
+    width:150px;
+    height:150px;
+    background-color: red;
+
+    /* position:absolute;
+    top:400px;
+    left: 200px; */
+}
+.blue
+{
+    margin-top:50px;
+    width:150px;
+    height:150px;
+    background-color: blue;
+
+    position: absolute;
+    top:0px;
+
+}

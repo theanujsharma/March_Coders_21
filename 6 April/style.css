@@ -28,6 +28,6 @@ a:hover
 }
 img
 {
-    border:15px  black;
-    border-style:double;
+    border:15px  black double;
+    /* border-style:double; */
 }
