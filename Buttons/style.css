@@ -23,3 +23,48 @@
     text-decoration: none;
     border-radius: 20px;
 }
+.box
+{
+    background-color: grey;
+    display: inline-block;
+    padding:10px 0px;
+}
+.bt
+{
+    color:white;
+    text-decoration: none;
+    background-color: black;
+    padding:10px 25px;
+    transition: 0.5s;
+}
+.bt:hover
+{
+    position:relative;
+    top:-5px;
+    left:-5px;
+}
+
+.box2
+{
+    border:1px solid black;
+    display: inline-block;
+    padding:10px 0px;
+    background-color: black;
+}
+.bt2
+{
+    position: relative;
+    top:-15px;
+    left:-5px;
+    text-decoration: none;
+    background-color: grey;
+    color:white;
+    padding:10px 15px;
+}
+.bt2:hover
+{
+    top:0px;
+    left:0px;
+    background-color:white;
+    color:grey;
+}

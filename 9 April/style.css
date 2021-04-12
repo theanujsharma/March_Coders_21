@@ -1,0 +1,16 @@
+ul
+{
+    list-style-type:square;
+}
+/* li
+{
+    display: inline;
+} */
+li:nth-child(even)
+{
+    color:crimson;
+}
+li:nth-child(odd)
+{
+    color:darkmagenta;
+}
