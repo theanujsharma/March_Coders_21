@@ -1,0 +1,39 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+
+body
+{
+    width:100%;
+    color:#616161;
+}
+a
+{
+    color:#616161;
+    text-decoration: none;
+}
+a:hover 
+{
+    text-decoration: underline;
+}
+li
+{
+    list-style-type: none;
+    padding:10px 0px;
+}
+.container
+{
+    background-color: lightgrey;
+    width:100%;
+    display: inline-block;
+    padding:5px 15px;
+}
+.box
+{
+    display: inline-block;
+    width: 16.6666667%;
+    float: left;
+
+}
