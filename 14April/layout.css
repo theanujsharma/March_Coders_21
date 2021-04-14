@@ -9,13 +9,19 @@
 {
     border:1px solid black;
 }
+.header
+{
+    background-color: turquoise;
+}
 .banner
 {
     height: 200px;
+    background-color: yellow;
 }
 .icons
 {
     height: 75px;
+    background-color: violet;
 }
 .products, .business
 {
@@ -24,22 +30,34 @@
 .onedrive
 {
     height: 150px;
+    background-color: salmon;
 }
 .covid
 {
     height: 50px;
+    background-color: palevioletred;
 }  
 .footer
 {
     height: 125px;
+    background-color: rebeccapurple;
 }
 .product, .foot
 {
     display: inline-block;
     width:25%;
     float:left;
+    height: 100%;
 }
 .foot
 {
     width:16.6666667%;
+}
+.product:nth-child(odd)
+{
+    background-color: tomato;
+}
+.product:nth-child(even)
+{
+    background-color: springgreen;
 }
