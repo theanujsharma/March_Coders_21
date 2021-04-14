@@ -1,0 +1,40 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+body
+{
+    width: 100%;
+}
+
+.blue, .green, .yellow, .red
+{
+    display: inline-block;
+    width:25%;
+    height:500px;
+    float:left;
+}
+.blue
+{
+    background-color:skyblue;
+
+    
+}
+.green
+{
+    background-color: lawngreen;
+
+
+    
+}
+.yellow
+{
+    background-color: yellow;
+
+   
+}
+.red
+{
+    background-color: red;
+}
