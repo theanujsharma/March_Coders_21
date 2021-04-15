@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100;1,900&display=swap');
+
+body
+{
+    font-family: 'Lato', sans-serif;
+}
+
+.text
+{
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.diff
+{   
+    font-weight: 600;
+    line-height: 1.6;
+    text-align: center;
+    text-transform:uppercase;
+}
+.sub
+{
+    letter-spacing: 2px;
+}
