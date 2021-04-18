@@ -1,0 +1,27 @@
+body
+{
+    font-size:10px;
+}
+p
+{
+    font-size:1 rem;
+}
+h1
+{
+    font-size:1.5 rem;
+}
+.blue
+{
+    width:50px;
+    height:50px;
+    background-color:blue;
+    float:right;
+}
+.pic
+{
+    width:100%;
+}
+.container
+{
+    
+}
