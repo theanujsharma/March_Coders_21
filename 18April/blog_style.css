@@ -1,0 +1,22 @@
+h1
+{
+    text-align: center;
+    color:#2E7AD3;
+    font-size: 48px;
+}
+h2
+{
+    color:#104c90;
+    font-size: 32px;
+}
+.box
+{
+    background-color:#f1f1f1;
+    width:500px;
+    margin:0 auto;
+    padding:25px;
+}
+a
+{
+    color:#ff8000;
+}
