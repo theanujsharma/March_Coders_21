@@ -1,0 +1,44 @@
+.container
+{
+    background-color: burlywood;
+    border:5px solid black;
+    font-size:2em;
+    display: flex;
+    /* height: 300px; */
+
+    /* flex-direction: column; */
+
+    /* justify-content: moves content along the main (left to right) axis; */
+    /* justify-content: space-around; */
+        /* justify-content: moves content along the cross (top  to bottom) axis; */
+    /* align-items:moves along the cross axis */
+    /* align-items: center; */
+}
+.search
+{
+    /* align-self: center; */
+    /* order:10; */
+    background-color: coral;
+    /* it's the speed by which it will grow */
+    flex-grow: 4;
+    /* it's the speed by which it will shrink */
+    flex-shrink:4;
+
+}
+.products
+{
+    /* align-self: flex-end; */
+    /* order:3; */
+    background-color: darkgoldenrod;
+    flex-grow: 2;
+}
+.home
+{
+    /* order:20; */
+    background-color: darkolivegreen;
+}
+.logout
+{
+    /* order:4; */
+    background-color: darkorange;
+}
