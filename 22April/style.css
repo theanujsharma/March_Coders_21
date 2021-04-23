@@ -1,0 +1,40 @@
+.container
+{
+    border:5px solid black;
+    display: flex;
+    font-size: 2em;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* justify-content: flex-end; */
+}
+.home, .search, .logout
+{
+    padding:15px 15px;
+}
+.home
+{
+    background-color: violet;
+}
+.search
+{
+    background-color: yellow;
+}
+.logout
+{
+    background-color: tomato;
+}
+.micro
+{
+    font-size: 2em;
+    border:5px solid red;
+    display:flex;
+    justify-content: space-around;
+}
+.one
+{
+    flex-grow:2;
+}
+.two
+{
+    flex-grow: 2;
+}

@@ -1,0 +1,50 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body
+{
+    font-size: 18px;
+}
+h1
+{
+    font-size: 36px;
+}
+h2
+{
+    font-size: 24px;
+    color:#EF5839;
+}
+a
+{
+    color:#EF5839;
+}
+.header, .footer
+{
+    background-color: #2E354F;
+    color:white;
+}
+.main
+{
+    margin:0 auto;
+    width:620px;
+    padding:25px 10px;
+}
+.btn1
+{
+    background-color: #EF5839;
+    color:white;
+    padding:10px 25px;
+    display: inline-block;
+}
+.btn2
+{
+    background-color: whitesmoke;
+    padding:10px 25px;
+    display: inline-block;
+}
+p
+{
+    padding:10px 0px;
+}
