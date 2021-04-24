@@ -65,3 +65,34 @@ img
 {
     width:65%;
 }
+
+@media only screen and (max-width:600px) {
+
+
+    .columns
+    {
+        flex-direction: column;
+    }
+
+    .one, .three, .five
+{
+    width:100%;
+    
+}
+
+.two
+{
+    width:100%;
+}
+
+.four
+{
+    width:100%;
+}
+.bg-col
+{
+    padding:15px 0px;
+
+}
+    
+}
