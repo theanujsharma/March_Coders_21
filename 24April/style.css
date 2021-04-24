@@ -1,0 +1,67 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+body
+{
+    font-size: 1.125rem;
+    color:#707070;
+    width:100%;
+}
+
+h1
+{
+    font-size: 3rem;
+    color:#312614;
+    text-align: center;
+}
+
+h2
+{
+    font-size:1.5rem;
+}
+
+span
+{
+    color:#b7832F;
+}
+
+img
+{
+    width:100%;
+}
+.container
+{
+    width:95%;
+    max-width: 980px;
+    margin:0 auto;
+}
+
+.columns
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top:2em;
+}
+.bg-col
+{
+    background-color: #312614;
+    color:#fff;
+    padding:1em;
+}
+
+.one, .three, .five
+{
+    width:20%;
+}
+
+.two
+{
+    width:45%;
+}
+
+.four
+{
+    width:65%;
+}
