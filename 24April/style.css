@@ -43,6 +43,7 @@ img
     display: flex;
     justify-content: space-between;
     margin-top:2em;
+    align-items: flex-start;
 }
 .bg-col
 {
