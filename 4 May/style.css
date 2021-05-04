@@ -1,0 +1,28 @@
+.g1
+{
+    background-image: linear-gradient(red, yellow, green);
+    height:250px;
+}
+.g2
+{
+    height:250px;
+    background-image: linear-gradient(to right,blue, orange);
+}
+.g3
+{
+    height:250px;
+    background-image: linear-gradient(to bottom right,blue, grey);
+}
+
+.g5
+{
+    height:250px;
+    background-image: linear-gradient(180deg,blue, grey);
+}
+
+h5
+{
+    color:#f50505;
+}
+
+
