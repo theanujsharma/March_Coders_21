@@ -1,0 +1,35 @@
+.container
+{
+    border:1px solid black;
+    display: grid;
+    height:250px;
+    grid-template-columns: 20px 20px 20px 20px 20px 20px;
+    justify-content:center;
+    align-content: center;
+    /* grid-column-gap: 10px; */
+
+}
+.one
+{
+    background-color: blue;
+}
+.two
+{
+    background-color: brown;
+}
+.three
+{
+    background-color: chartreuse;
+}
+.four
+{
+    background-color: darkgoldenrod;
+}
+.five
+{
+    background-color: darkolivegreen;
+}
+.six
+{
+    background-color: hotpink;
+}

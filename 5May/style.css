@@ -1,0 +1,47 @@
+*
+{
+    padding:0px;
+    margin:0px;
+}
+html,body
+{
+    background-color: orange;
+    height:100vh;
+}
+.container
+{
+    display: grid;
+    height:100vh; 
+    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-rows: 1fr 5fr 1fr;
+}
+
+div
+{
+    border:1px solid black;
+}
+.header
+{
+    background-color: orchid;
+    grid-column: 1/4;
+}
+.aside
+{
+    background-color: palegreen;
+
+}
+.main
+{
+    background-color: royalblue;
+
+}
+.article
+{
+    background-color: salmon;
+
+}
+.footer
+{
+    background-color: turquoise;
+    grid-column:1/-1;
+}
