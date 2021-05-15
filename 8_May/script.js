@@ -42,9 +42,14 @@ const myColor = document.getElementById("myColor")
 
 const change = document.getElementById("change")
 
+// change.addEventListener("click",
+// function (){
+//     body.style.backgroundColor = myColor.value
+// })
+
 change.addEventListener("click",
 function (){
-    body.style.backgroundColor = myColor.value
+    box.innerText = myColor.value
 })
 
 
