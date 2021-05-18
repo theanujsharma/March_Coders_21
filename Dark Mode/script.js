@@ -1,7 +1,17 @@
-const heading = document.getElementsByTagName("h1")
+const btn = document.getElementById("btn")
+const body = document.getElementById("body")
+body.style.backgroundColor = "white"
 
-heading[0].innerText = "Hello"
-
-const box = document.getElementsByClassName("box")
-
-box[1].innerText = "Cascading Style Sheet"
+btn.addEventListener("click",
+function(){
+    if (body.style.backgroundColor == "white")
+    {
+        body.style.backgroundColor = "black"
+        btn.value = "Light Mode"
+    }
+    else
+    {
+        body.style.backgroundColor = "white"
+        btn.value = "Dark Mode"
+    }
+})
