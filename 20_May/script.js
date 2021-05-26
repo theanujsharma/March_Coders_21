@@ -6,26 +6,24 @@ let num = 0 // starting value
 studentIN.addEventListener("click",
 function(){
     num = num + 1 //incrementing by 1 // adding things
-    if (num > 4)
+    if (num < 6)
     {
         count.innerHTML = num
-        error.innerHTML = "You have reached the limit"
-        num = 5
     }
     else
     {
-        count.innerHTML = num 
-    }
-})
-studentOut.addEventListener("click",
-function(){
-    num = num - 1 // decrement by 1 //subtract
-    if (num < 5)
-    {
-        count.innerHTML = num
-        error.innerHTML = ""
+        error.innerHTML = "No other student allowed"
+        num = 5
     }
     
+})
+
+studentOut.addEventListener("click",
+function(){
+
+    num = num - 1 // decrement by 1 //subtract
+    count.innerHTML = num
+    error.innerHTML = ""
 })
 
 
